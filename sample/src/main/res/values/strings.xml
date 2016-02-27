@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Expandable Adapter</string>
+    <string name="enableReorderableSwitchText">Reorderable enabled</string>
+</resources>
