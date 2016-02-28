@@ -4,7 +4,7 @@
 
 ## Overview
 
-**ExpandableReorderableAdapter** allows you to implement easily the equivalent of `ExpandableListView` with a `RecyclerView`. It also has the reorder logic implemented
+**ExpandableReorderableAdapter** allows you to implement easily the equivalent of `ExpandableListView` with a `RecyclerView`. It also has the reorder logic implemented.
 
 
 ## Usage

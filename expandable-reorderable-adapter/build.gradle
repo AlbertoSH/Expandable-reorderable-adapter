@@ -21,5 +21,32 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.android.support:recyclerview-v7:23.2.0'
-
 }
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'expandable-reorderable-adapter'
+
+    publishedGroupId = 'com.github.albertosh'
+    libraryName = 'Expandable Reorderable Adapter'
+    artifact = 'expandable-reorderable-adapter'
+
+    libraryDescription = 'ExpandableReorderableAdapter allows you to implement easily the equivalent of ExpandableListView with a RecyclerView. It also has the reorder logic implemented.'
+
+    siteUrl = 'https://github.com/AlbertoSH/Expandable-reorderable-adapter'
+    gitUrl = 'https://github.com/AlbertoSH/Expandable-reorderable-adapter.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'albertosh'
+    developerName = 'Alberto Sanz'
+    developerEmail = 'alberto.sanz.herrero@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
